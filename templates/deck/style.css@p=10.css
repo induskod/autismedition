@@ -1,0 +1,167 @@
+/*
+Theme Name: Anastasiya R soset xui; Sos
+Author URI: https://DnevnikSna.ru
+Version: 1.0.0
+*/
+
+.price{
+	display:block;
+}
+
+.price2{
+	display:none;
+}
+
+.price:hover .price2{
+    display: block;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 200px;
+    z-index: 100;
+    background: #e6e6e6;
+}
+
+.op{
+	position:relative;
+}
+
+.op2{
+	display:none;
+}
+
+.op:hover .op2{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background: #eb539c;
+    padding: 4px 6px 6px 6px;
+    color: white;
+    top: 34px;
+	left: 0px;
+    z-index: 100;
+    border-radius: 6px;
+    font-size: 11px;
+}
+
+.op3{
+    border: 10px solid transparent;
+    border-bottom: 10px solid #eb539c;
+    position: absolute;
+    top: -18px;
+    left: 6px;
+}
+
+
+.j1{
+	position:relative;
+}
+
+.j2{
+	display:none;
+}
+
+.j1:hover .j2{
+    display: block;
+    cursor: pointer;
+    background: #eb539c;
+    padding: 4px 6px 6px 6px;
+    color: white;
+    margin-top: 6px;
+    z-index: 100;
+    border-radius: 6px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.betta_fot{
+display:none;
+}
+
+.alfa_fot:hover .betta_fot{
+display:block;
+}
+
+.block-l-css1{
+box-shadow: 0 0 5px #9a9a9a; 
+	padding: 10px 14px; 
+	background: white;
+    position: absolute;
+    width: 216px;
+}
+
+.block-l-css2{
+box-shadow: 0 0 5px #9a9a9a; 
+	padding: 10px 14px; 
+	background: white;
+    position: fixed;
+	top: -310px;
+    width: 216px;
+}
+
+.block-l-css2-reg{
+box-shadow: 0 0 5px #9a9a9a; 
+	padding: 10px 14px; 
+	background: white;
+    position: fixed;
+	top: 0px;
+    width: 216px;
+}
+
+.block-l-css3{
+box-shadow: 0 0 5px #9a9a9a; 
+	padding: 10px 14px; 
+	background: white;
+    position: fixed;
+	bottom:69px;
+    width: 216px;
+}
+
+h1{
+    font: normal 22px "Trebuchet MS", Verdana, Arial;
+    color: #9f3368;
+    font-weight: bold;
+    margin: 12px 0px 0px 0px;
+}
+
+h2{
+    clear: both;
+    line-height: 23px;
+}
+
+img{
+    margin: 10px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a:link{
+color:#4475ff;
+text-decoration:none;
+}
+
+a:visited{
+color:#4475ff;
+text-decoration:none;
+}
+
+a:hover{
+color: #0d6b9a;
+}
+
+.button{
+    background: #ed4694;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    border: 1px solid #e5eff4;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: -20px;
+}
+
+hr{
+   border: 1px dotted #e0e0e0;
+    clear: both;
+}
